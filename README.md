@@ -32,10 +32,18 @@ Presentations:
 
 * Release: [0.0.5 ZIP](http://acko.net/files/mathbox2/mathbox-0.0.5.zip)
 
-or install via bower:
+Install via bower:
 
 ```bash
 bower install mathbox
+```
+
+Or build from source:
+```bash
+git clone --recursive https://github.com/ant-t/mathbox.git
+cd mathbox
+npm install --save-dev
+./node_modules/gulp/bin/gulp.js build
 ```
 
 Open the included `/examples` to see more demos.
